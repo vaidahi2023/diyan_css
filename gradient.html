@@ -1,0 +1,36 @@
+<!-- types of gradient 
+1.linear-gradient
+2.radial-gradient
+3.conio-gradient -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box 
+        {
+            height: 300px;
+            width: 400px;
+            border:2px solid black;
+
+            /* :linear-gradient(to bottom,red,yellow,green,blue) to right,to left,to bottom,to top   */
+            /* background-image: linear-gradient(to bottom,red ,yellow); */
+            /* background-image: linear-gradient(to bottom,red ,yellow,green,white); */
+           /* background-image: linear-gradient(to top,red ,yellow,green,white); */
+           /* background-image: linear-gradient(to right,red ,yellow,green,white); */
+           /* background-image: linear-gradient(to left,red ,yellow,green,white); */
+            /* background-image: radial-gradient(red 20%,green 30%,yellow 20%); */
+            /* background-image: repeating-radial-gradient(white 20%,blue 40%,white 20%); */
+            /* background-image: repeating-linear-gradient(to bottom,red ,yellow,green,white); */
+            background-image: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 250deg,white 250deg,white 360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
